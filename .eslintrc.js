@@ -23,7 +23,6 @@ module.exports = {
   rules: {
     'vue/script-indent': ["error", 2, {"baseIndent": 1}],
     "indent": "off",
-    "indent-legacy": ["error", 2],
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development

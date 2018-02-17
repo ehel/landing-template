@@ -20,16 +20,15 @@
                 </div>
                 <div class="media-content" style="overflow: hidden">
                   <p class="title is-4 font-accident-two-medium">John Smith</p>
-                  <p class="subtitle is-6 font-accident-two-light">@johnsmith</p>
+                  <p class="subtitle is-6 font-accident-two-light has-text-info">ABC inc.</p>
+                </div>
+                <div class="media-right">
+                  <p class="is-size-7 font-accident-two-normal is-uppercase">1 Jan 2016</p>
                 </div>
               </div>
-
               <div class="content font-regular-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                <a href="#">#css</a> <a href="#">#responsive</a>
-                <br>
-                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                Phasellus nec iaculis mauris.
               </div>
             </div>
           </div>
@@ -44,17 +43,16 @@
                   </figure>
                 </div>
                 <div class="media-content" style="overflow: hidden">
-                  <p class="title is-4 font-accident-two-medium">John Smith</p>
-                  <p class="subtitle is-6 font-accident-two-light">@johnsmith</p>
+                  <p class="title is-4 font-accident-two-medium">Sam Smith</p>
+                  <p class="subtitle is-6 font-accident-two-light has-text-info">Amazon</p>
+                </div>
+                <div class="media-right">
+                  <p class="is-size-7 font-accident-two-normal is-uppercase">1 Jan 2016</p>
                 </div>
               </div>
-
               <div class="content font-regular-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                <a href="#">#css</a> <a href="#">#responsive</a>
-                <br>
-                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                Phasellus nec iaculis mauris.
               </div>
             </div>
           </div>
@@ -69,17 +67,17 @@
                   </figure>
                 </div>
                 <div class="media-content" style="overflow: hidden">
-                  <p class="title is-4 font-accident-two-medium">John Smith</p>
-                  <p class="subtitle is-6 font-accident-two-light">@johnsmith</p>
+                  <p class="title is-4 font-accident-two-medium">Joe Smith</p>
+                  <p class="subtitle is-6 font-accident-two-light has-text-info">Google</p>
+                </div>
+                <div class="media-right">
+                  <p class="is-size-7 font-accident-two-normal is-uppercase">1 Jan 2016</p>
                 </div>
               </div>
 
               <div class="content font-regular-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                <a href="#">#css</a> <a href="#">#responsive</a>
-                <br>
-                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                Phasellus nec iaculis mauris.
               </div>
             </div>
           </div>
@@ -88,3 +86,9 @@
     </div>
   </section>
 </template>
+
+<style>
+  .card{
+    box-shadow: 0 12px 23px rgba(10, 10, 10, 0.1), 0 0 0 0px rgba(10, 10, 10, 0.1);
+  }
+</style>
