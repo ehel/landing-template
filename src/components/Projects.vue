@@ -26,7 +26,7 @@
           </article>
           <article class="tile is-child notification third-project project project-horizontal">
             <div class="content">
-              <p class="title font-accident-two-medium is-uppercase is-size-5 mb-35">Vertical...</p>
+              <p class="title font-accident-two-medium is-uppercase is-size-5 mb-35">Project Title</p>
               <p class="subtitle is-size-7 font-accident-two-normal is-uppercase">Top tile</p>
             </div>
           </article>
@@ -38,6 +38,9 @@
 
 <style lang="scss">
   .project-horizontal{
+    min-height: 300px;
+  }
+  .project-vertical{
     min-height: 300px;
   }
   .project{
