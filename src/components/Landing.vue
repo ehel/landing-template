@@ -1,54 +1,6 @@
 <template>
   <div>
-    <section class="hero is-info is-fullheight is-bold">
-      <vue-particles color="#dedede" style="position: absolute; width: 100%; height: 100%;"></vue-particles>
-      <div class="hero-head">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-brand">
-              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
-            </div>
-            <div id="navbarMenuHeroA" class="navbar-menu">
-              <div class="navbar-end">
-                <span class="navbar-item">
-                  <a href="#" class="font-regular-normal">Examples</a>
-                </span>
-                <span class="navbar-item">
-                  <a href="#" class="font-regular-normal">Docs</a>
-                </span>
-                <span class="navbar-item">
-                  <a href="#" class="button is-info is-inverted is-outlined font-regular-normal">
-                    Get Started
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column center-text-vertically">
-              <h1 class="title font-accident-two-light is-uppercase">
-                Full Height title
-              </h1>
-              <h2 class="subtitle font-regular-normal is-uppercase">
-                Full Height subtitle
-              </h2>
-              <a class="button is-info is-inverted is-outlined">Get Started</a>
-            </div>
-            <div class="column">
-              <img src="/static/imgs/Chrome-Browser-t.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <app-header></app-header>
     <about-us></about-us>
     <what-we-do></what-we-do>
     <features></features>
@@ -59,6 +11,7 @@
 </template>
 
 <script>
+  import AppHeader from './Header'
   import AboutUs from './AboutUs'
   import WhatWeDo from './WhatWeDo'
   import Features from './Features'
@@ -74,7 +27,8 @@
       Features,
       Testimonials,
       Projects,
-      ContactUs
+      ContactUs,
+      AppHeader
     }
   }
 </script>
