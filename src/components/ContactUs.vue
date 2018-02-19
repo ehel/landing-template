@@ -28,7 +28,7 @@
               <textarea class="textarea" placeholder="Hello world"></textarea>
             </div>
             <div class="control">
-              <input type="submit" value="Send Message" class="button is-info is-inverted is-outlined is-pulled-right">
+              <button class="button is-info is-inverted is-outlined is-pulled-right">Send Message</button>
             </div>
           </form>
         </div>

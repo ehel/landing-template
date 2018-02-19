@@ -2,6 +2,34 @@
   <div>
     <section class="hero is-info is-fullheight is-bold">
       <vue-particles color="#dedede" style="position: absolute; width: 100%; height: 100%;"></vue-particles>
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <span class="navbar-item">
+                  <a href="#" class="font-regular-normal">Examples</a>
+                </span>
+                <span class="navbar-item">
+                  <a href="#" class="font-regular-normal">Docs</a>
+                </span>
+                <span class="navbar-item">
+                  <a href="#" class="button is-info is-inverted is-outlined font-regular-normal">
+                    Get Started
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
       <div class="hero-body">
         <div class="container">
           <div class="columns">
