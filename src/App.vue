@@ -4,7 +4,7 @@
       <nav class="navbar is-fixed-top is-transparent" v-if="showNavbar">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item is-active" href="#">
+            <a class="navbar-item font-regular-normal is-active" href="#">
               Home
             </a>
                 <span class="navbar-burger burger" :class="{'is-active': burgerOpen}" @click="burgerOpen = !burgerOpen">
@@ -59,14 +59,17 @@
 </script>
 
 <style lang="scss">
-@import "./assets/scss/app";
-.is-transparent{
-  opacity: .95;
-}
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .2s;
-}
-.fade-enter, .fade-leave-to{
-  opacity: 0;
-}
+  @import "./assets/scss/app";
+  .is-transparent{
+    opacity: .95;
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .2s;
+  }
+  .fade-enter, .fade-leave-to{
+    opacity: 0;
+  }
+  .navbar-item.is-active{
+    border-bottom: 2px #04a6d7 solid;
+  }
 </style>

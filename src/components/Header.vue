@@ -17,10 +17,10 @@
                   <a href="#" class="font-regular-normal navbar-item-link">Examples</a>
                 </span>
               <span class="navbar-item">
-                  <a href="#" class="font-regular-normal navbar-item-link">Docs</a>
+                  <a href="#" class="font-accident-two-normal navbar-item-link">Docs</a>
                 </span>
               <span class="navbar-item">
-                  <a href="#" class="button is-info is-inverted is-outlined font-regular-normal">
+                  <a href="#" class="button is-info is-inverted is-outlined font-accident-two-normal" :class="{'is-fullwid': burgerOpen}">
                     Sign Up
                   </a>
                 </span>
@@ -72,5 +72,14 @@
   .hero.is-info .navbar-menu{
     background: none;
     box-shadow: none;
+    &.is-active{
+      text-align: center;
+    }
+  }
+  .center-text-vertically {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 </style>
