@@ -15,10 +15,10 @@
           </div>
           <div class="navbar-menu" :class="{'is-active': burgerOpen}">
             <div class="navbar-end">
-              <a href="#" class="navbar-item font-regular-normal">
+              <a href="#" class="navbar-item font-regular-normal has-text-grey-darker">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"><path class="heroicon-ui" d="M20 9v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2zm0-2V5H4v2h16zM6 9v10h12V9H6zm4 2h4a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2z"/></svg>
                 Examples</a>
-              <a href="#" class="navbar-item font-regular-normal">
+              <a href="#" class="navbar-item font-regular-normal has-text-grey-darker">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"><path class="heroicon-ui" d="M20 6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h7.41l2 2H20zM4 6v12h16V8h-7.41l-2-2H4z"/></svg>
                 Docs</a>
               <span class="navbar-item">
@@ -89,7 +89,7 @@
      transition: 300ms ease color;
      svg{
        margin-right: 5px;
-       fill: #4a4a4a;
+       fill: hsl(0, 0%, 21%);
        transition: 300ms ease fill;
      }
      &:hover{
