@@ -4,8 +4,8 @@
       <nav class="navbar is-fixed-top is-transparent" v-if="showNavbar">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item font-regular-normal is-active" href="#">
-              Home
+            <a class="navbar-item" href="/">
+              <img src="/static/imgs/logo.png" height="28">
             </a>
                 <span class="navbar-burger burger" :class="{'is-active': burgerOpen}" @click="burgerOpen = !burgerOpen">
                   <span></span>
@@ -15,9 +15,18 @@
           </div>
           <div class="navbar-menu" :class="{'is-active': burgerOpen}">
             <div class="navbar-end">
-              <a href="#" class="navbar-item font-regular-normal">Examples</a>
-              <a href="#" class="navbar-item font-regular-normal">Docs</a>
-              <a href="#" class="navbar-item font-regular-normal">Sign Up</a>
+              <a href="#" class="navbar-item font-regular-normal">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"><path class="heroicon-ui" d="M20 9v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2zm0-2V5H4v2h16zM6 9v10h12V9H6zm4 2h4a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2z"/></svg>
+                Examples</a>
+              <a href="#" class="navbar-item font-regular-normal">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"><path class="heroicon-ui" d="M20 6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h7.41l2 2H20zM4 6v12h16V8h-7.41l-2-2H4z"/></svg>
+                Docs</a>
+              <span class="navbar-item">
+                  <a href="#" class="button is-info is-outlined">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16"><path class="heroicon-ui" d="M19 10h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2h-2a1 1 0 0 1 0-2h2V8a1 1 0 0 1 2 0v2zM9 12A5 5 0 1 1 9 2a5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm8 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h5a5 5 0 0 1 5 5v2z"/></svg>
+                Sign Up
+                  </a>
+                </span>
             </div>
           </div>
         </div>
@@ -69,7 +78,39 @@
   .fade-enter, .fade-leave-to{
     opacity: 0;
   }
-  .navbar-item.is-active{
-    border-bottom: 2px #04a6d7 solid;
-  }
+ .navbar.is-fixed-top{
+   .navbar-item.is-active{
+     border-bottom: 2px #04a6d7 solid;
+     svg{
+       fill: #04a6d7;
+     }
+   }
+   .navbar-item{
+     transition: 300ms ease color;
+     svg{
+       margin-right: 5px;
+       fill: #4a4a4a;
+       transition: 300ms ease fill;
+     }
+     &:hover{
+       color: #0a0a0a !important;
+       svg{
+         fill: #04a6d7;
+       }
+     }
+   }
+   .navbar-item{
+     .button.is-info{
+       svg{
+         transition: 100ms ease fill;
+         fill: #04a6d7;
+       }
+       &:hover{
+         svg{
+           fill: #fff;
+         }
+       }
+     }
+   }
+ }
 </style>
