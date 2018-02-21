@@ -9,76 +9,24 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Accusamus aliquid beatae, deserunt esse ex, explicabo hic illum incidunt maxime, possimus sed suscipit vitae. <br> Dignissimos, enim laborum nihil nulla sequi unde.
       </p>
       <div class="columns">
-        <div class="column">
+        <div class="column" v-for="testimonial in testimonials" :key="testimonial.id">
           <div class="card">
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
                   <figure class="image is-48x48">
-                    <img class="is-rounded" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    <img class="is-rounded" :src="testimonial.image" alt="Placeholder image">
                   </figure>
                 </div>
                 <div class="media-content" style="overflow: hidden">
-                  <p class="title is-4 font-accident-two-medium">John Smith</p>
-                  <p class="subtitle is-6 font-accident-two-light has-text-info">ABC inc.</p>
+                  <p class="title is-4 font-accident-two-medium" v-text="testimonial.name"></p>
+                  <p class="subtitle is-6 font-accident-two-light has-text-info" v-text="testimonial.company"></p>
                 </div>
                 <div class="media-right">
-                  <p class="is-size-7 font-accident-two-normal is-uppercase">1 Jan 2016</p>
+                  <p class="is-size-7 font-accident-two-normal is-uppercase" v-text="testimonial.date"></p>
                 </div>
               </div>
-              <div class="content font-regular-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-48x48">
-                    <img class="is-rounded" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="media-content" style="overflow: hidden">
-                  <p class="title is-4 font-accident-two-medium">Sam Smith</p>
-                  <p class="subtitle is-6 font-accident-two-light has-text-info">Amazon</p>
-                </div>
-                <div class="media-right">
-                  <p class="is-size-7 font-accident-two-normal is-uppercase">1 Jan 2016</p>
-                </div>
-              </div>
-              <div class="content font-regular-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-48x48">
-                    <img class="is-rounded" src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="media-content" style="overflow: hidden">
-                  <p class="title is-4 font-accident-two-medium">Joe Smith</p>
-                  <p class="subtitle is-6 font-accident-two-light has-text-info">Google</p>
-                </div>
-                <div class="media-right">
-                  <p class="is-size-7 font-accident-two-normal is-uppercase">1 Jan 2016</p>
-                </div>
-              </div>
-
-              <div class="content font-regular-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris.
-              </div>
+              <div class="content font-regular-normal" v-text="testimonial.message"></div>
             </div>
           </div>
         </div>
@@ -86,6 +34,41 @@
     </div>
   </section>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        testimonials: [
+          {
+            id: 1,
+            name: 'John Doe',
+            image: 'https://bulma.io/images/placeholders/96x96.png',
+            company: 'ABC inc.',
+            date: '1 Jan 2018',
+            message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n Phasellus nec iaculis mauris.'
+          },
+          {
+            id: 2,
+            name: 'Sam Doe',
+            image: 'https://bulma.io/images/placeholders/96x96.png',
+            company: 'Google',
+            date: '2 Jan 2018',
+            message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n Phasellus nec iaculis mauris.'
+          },
+          {
+            id: 3,
+            name: 'Joe Doe',
+            image: 'https://bulma.io/images/placeholders/96x96.png',
+            company: 'Amazon',
+            date: '3 Jan 2018',
+            message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n Phasellus nec iaculis mauris.'
+          }
+        ]
+      }
+    }
+  }
+</script>
 
 <style>
   .card{

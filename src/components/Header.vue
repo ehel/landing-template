@@ -20,7 +20,7 @@
                   <a href="#" class="font-accident-two-normal navbar-item-link">Docs</a>
                 </span>
               <span class="navbar-item">
-                  <a href="#" class="button is-info is-inverted is-outlined font-accident-two-normal" :class="{'is-fullwid': burgerOpen}">
+                  <a href="#" class="button is-info is-inverted is-outlined font-accident-two-normal" :class="{'is-fullwidth': burgerOpen}">
                     Sign Up
                   </a>
                 </span>
