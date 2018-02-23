@@ -13,9 +13,6 @@
           </div>
           <div class="navbar-menu" :class="{'is-active': burgerOpen}">
             <div class="navbar-end">
-                <span class="navbar-item">
-                  <a href="#" class="font-regular-normal navbar-item-link">Examples</a>
-                </span>
               <span class="navbar-item">
                   <a href="http://silence.valentinsirbu.me/docs" class="font-accident-two-normal navbar-item-link">Docs</a>
                 </span>
