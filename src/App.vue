@@ -106,7 +106,7 @@
        transition: 300ms ease fill;
      }
      &:hover{
-       color: #0a0a0a !important;
+       color: #0f0f0f !important;
        svg{
          fill: #04a6d7;
        }

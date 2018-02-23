@@ -136,5 +136,6 @@
 </script>
 
 <style lang="scss">
+  .slick-slider { display: table !important; table-layout: fixed; width: 100%; }
   @import "~slick-carousel/slick/slick";
 </style>

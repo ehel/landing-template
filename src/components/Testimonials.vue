@@ -9,7 +9,7 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Accusamus aliquid beatae, deserunt esse ex, explicabo hic illum incidunt maxime, possimus sed suscipit vitae. <br> Dignissimos, enim laborum nihil nulla sequi unde.
       </p>
       <div>
-        <slick class="columns" :options="options">
+        <slick class="columns" :options="options" ref="slick">
           <div class="column" v-for="testimonial in testimonials" :key="testimonial.id">
             <div class="card">
               <div class="card-content">
@@ -50,7 +50,17 @@
           slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 2000,
-          arrows: false
+          arrows: false,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false
+              }
+            }
+          ]
         },
         testimonials: [
           {
@@ -109,6 +119,6 @@
 
 <style>
   .card{
-    box-shadow: 0 12px 23px rgba(10, 10, 10, 0.1), 0 0 0 0px rgba(10, 10, 10, 0.1);
+    box-shadow: 0 6px 8px rgba(10, 10, 10, 0.1), 0 0 0 0px rgba(10, 10, 10, 0.1);
   }
 </style>
