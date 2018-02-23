@@ -45,6 +45,7 @@
                         C409.4,300.1,395.6,307.3,387.3,310.3z"></path>
                     </svg>
                   </div>
+                  <p class="font-regular-normal is-6">Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
                 </div>
               </article>
               <article class="tile is-child feature">
@@ -52,7 +53,7 @@
                 <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">compiled JS included</p>
                 <div class="content">
                   <div class="icon extra-small">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40%" height="100%" viewBox="0 0 297.45 419.877" enable-background="new 0 0 297.45 419.877">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40%" height="100%" viewBox="0 0 297.45 419.877" enable-background="new 0 0 297.45 419.877">
                       <polygon fill="#FFCC33" points="27.07,386.156 0,82.536 297.45,82.536 270.352,386.107 148.543,419.877"></polygon>
                       <polygon fill="#F8DC3D" points="148.725,394.064 247.153,366.777 270.311,107.361 148.725,107.361"></polygon>
                       <g>
@@ -72,23 +73,26 @@
                       </g>
                       </svg>
                   </div>
+                  <p class="font-regular-normal is-6">ECMAScript 6, also known as ECMAScript 2015, is the latest version of the ECMAScript standard.</p>
                 </div>
               </article>
             </div>
-            <div class="tile is-parent">
+            <div class="tile is-parent is-vertical">
               <article class="tile is-child feature">
                 <p class="title font-accident-two-medium is-uppercase is-size-5">Webpack module bundler</p>
                 <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Static module bundler for modern JS apps</p>
                 <div class="content">
                   <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40%" height="100%">
-                      <path class="heroicon-ui" d="M20 7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9c0-1.1.9-2 2-2h2.38l1.73-3.45A1 1 0 0 1 9 3h6a1 1 0 0 1 .9.55L17.61 7H20zM9.62 5L7.89 8.45A1 1 0 0 1 7 9H4v10h16V9h-3a1 1 0 0 1-.9-.55L14.39 5H9.62zM12 17a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
-                    </svg>
+                    <svg height="100%" viewBox="0 0 256 296" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><defs><radialGradient fx="50%" fy="50%" id="a"><stop stop-color="#93B4E7" offset="0%"/><stop stop-color="#B9D1F8" offset="59.273%"/><stop stop-color="#9CB6E0" offset="100%"/></radialGradient></defs><path d="M128.032.456L.298 74.203v147.495l127.734 73.748 127.735-73.748V74.203L128.032.456z" fill="url(#a)"/><path d="M128.034 75.263L64.69 111.834v73.144l63.344 36.572 63.344-36.572v-73.144l-63.344-36.571z" fill="#6F95DB"/><path d="M128 0L0 74.25l128 69.693 128-69.238L128 0zM128 153.509L0 221.38l128 73.793 127.544-74.249L128 153.51z" fill="#FFF" fill-opacity=".1"/></svg>
                   </div>
                   <p class="font-regular-normal is-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi dicta dolorem eaque ex excepturi exercitationem fuga laudantium magnam natus nesciunt nulla, quaerat, recusandae sunt ullam unde velit voluptates? Dolorum.
+                    When webpack processes your application, it recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into one or more bundles.
                   </p>
                 </div>
+              </article>
+              <article class="tile is-child feature center-content-vertically">
+                <p class="title font-accident-two-medium is-uppercase is-size-5">Collapsible sidebar & Side Panel</p>
+                <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Flexible modular code structure</p>
               </article>
             </div>
           </div>
@@ -96,17 +100,19 @@
             <article class="tile is-child feature">
               <div class="columns align-center">
                 <div class="column is-8">
-                  <p class="title font-accident-two-medium is-uppercase is-size-5">Feature</p>
-                  <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Subtitle</p>
+                  <p class="title font-accident-two-medium is-uppercase is-size-5">NPM</p>
+                  <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Package Manager</p>
                   <div class="content">
-                    <p class="font-regular-normal is-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="font-regular-normal is-6">NPM is the package manager for JavaScript and the world's largest software registry.</p>
                   </div>
                 </div>
                 <div class="column">
                   <div class="icon small">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40%" height="100%">
-                      <path class="heroicon-ui"
-                            d="M4 3h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2zm16 4V5H4v2h16zm0 2H4v10h16V9z"/>
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40%" height="100%" viewBox="0 0 18 7">
+                      <path fill="#CB3837" d="M0,0h18v6H9v1H5V6H0V0z M1,5h2V2h1v3h1V1H1V5z M6,1v5h2V5h2V1H6z M8,2h1v2H8V2z M11,1v4h2V2h1v3h1V2h1v3h1V1H11z"/>
+                      <polygon fill="#FFFFFF" points="1,5 3,5 3,2 4,2 4,5 5,5 5,1 1,1 "/>
+                      <path fill="#FFFFFF" d="M6,1v5h2V5h2V1H6z M9,4H8V2h1V4z"/>
+                      <polygon fill="#FFFFFF" points="11,1 11,5 13,5 13,2 14,2 14,5 15,5 15,2 16,2 16,5 17,5 17,1 "/>
                     </svg>
                   </div>
                 </div>
@@ -114,21 +120,36 @@
             </article>
           </div>
         </div>
-        <div class="tile is-parent">
+        <div class="tile is-parent is-vertical">
           <article class="tile is-child feature">
-            <p class="title font-accident-two-medium is-uppercase is-size-5">Feature</p>
-            <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Subtitle</p>
+            <p class="title font-accident-two-medium is-uppercase is-size-5">26 components</p>
+            <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Easy to customize</p>
             <div class="content">
-              <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40%" height="100%">
-                  <path class="heroicon-ui"
-                        d="M9 4.58V4c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v.58a8 8 0 0 1 1.92 1.11l.5-.29a2 2 0 0 1 2.74.73l1 1.74a2 2 0 0 1-.73 2.73l-.5.29a8.06 8.06 0 0 1 0 2.22l.5.3a2 2 0 0 1 .73 2.72l-1 1.74a2 2 0 0 1-2.73.73l-.5-.3A8 8 0 0 1 15 19.43V20a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-.58a8 8 0 0 1-1.92-1.11l-.5.29a2 2 0 0 1-2.74-.73l-1-1.74a2 2 0 0 1 .73-2.73l.5-.29a8.06 8.06 0 0 1 0-2.22l-.5-.3a2 2 0 0 1-.73-2.72l1-1.74a2 2 0 0 1 2.73-.73l.5.3A8 8 0 0 1 9 4.57zM7.88 7.64l-.54.51-1.77-1.02-1 1.74 1.76 1.01-.17.73a6.02 6.02 0 0 0 0 2.78l.17.73-1.76 1.01 1 1.74 1.77-1.02.54.51a6 6 0 0 0 2.4 1.4l.72.2V20h2v-2.04l.71-.2a6 6 0 0 0 2.41-1.4l.54-.51 1.77 1.02 1-1.74-1.76-1.01.17-.73a6.02 6.02 0 0 0 0-2.78l-.17-.73 1.76-1.01-1-1.74-1.77 1.02-.54-.51a6 6 0 0 0-2.4-1.4l-.72-.2V4h-2v2.04l-.71.2a6 6 0 0 0-2.41 1.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
-                </svg>
-              </div>
-              <p class="font-regular-normal is-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet consequuntur dicta dolores ducimus eveniet hic molestias, nam natus omnis praesentium quasi, qui quisquam, temporibus voluptas. Amet cumque deserunt quas.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur consequatur cum debitis doloribus eveniet id nihil, non obcaecati optio pariatur quibusdam repellendus reprehenderit sit veniam. Dolorem est officia sapiente.
-              </p>
+              <ul class="font-regular-normal is-6 has-text-left">
+                <li>3 charts libraries</li>
+                <li>WYSIWYG and code editors</li>
+                <li>Calendar</li>
+                <li>Gallery</li>
+                <li>Form Components</li>
+                <li>Widgets</li>
+                <li>Datatables</li>
+                <li>Timeline and Panels</li>
+              </ul>
+            </div>
+          </article>
+          <article class="tile is-child feature">
+            <p class="title font-accident-two-medium is-uppercase is-size-5">10 pages</p>
+            <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Clean source code</p>
+            <div class="content">
+              <ul class="font-regular-normal is-6 has-text-left">
+                <li>Dashboard</li>
+                <li>Profile</li>
+                <li>Contacts</li>
+                <li>Social Feed</li>
+                <li>Inbox and Mail</li>
+                <li>Blog and Single Post</li>
+                <li>Auth and Error</li>
+              </ul>
             </div>
           </article>
         </div>

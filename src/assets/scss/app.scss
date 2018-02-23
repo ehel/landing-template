@@ -7,4 +7,9 @@
 .align-center{
   align-items: center;
 }
+.center-content-vertically{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 textarea, input { outline: none; border: none !important;}
