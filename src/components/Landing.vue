@@ -4,6 +4,7 @@
     <about-us></about-us>
     <what-we-do></what-we-do>
     <features></features>
+    <responsive></responsive>
     <testimonials></testimonials>
     <projects></projects>
     <contact-us></contact-us>
@@ -18,6 +19,7 @@
   import Testimonials from './Testimonials'
   import Projects from './Projects'
   import ContactUs from './ContactUs'
+  import Responsive from './Responsive'
 
   export default {
     name: 'Main',
@@ -28,7 +30,8 @@
       Testimonials,
       Projects,
       ContactUs,
-      AppHeader
+      AppHeader,
+      Responsive
     }
   }
 </script>
