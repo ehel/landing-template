@@ -17,11 +17,11 @@
                   <a href="#" class="font-regular-normal navbar-item-link">Examples</a>
                 </span>
               <span class="navbar-item">
-                  <a href="#" class="font-accident-two-normal navbar-item-link">Docs</a>
+                  <a href="http://silence.valentinsirbu.me/docs" class="font-accident-two-normal navbar-item-link">Docs</a>
                 </span>
               <span class="navbar-item">
                   <a href="#" class="button is-info is-inverted is-outlined font-accident-two-normal" :class="{'is-fullwidth': burgerOpen}">
-                    Sign Up
+                    Live Preview
                   </a>
                 </span>
             </div>
@@ -34,15 +34,15 @@
         <div class="columns">
           <div class="column center-text-vertically">
             <h1 class="title font-accident-two-light is-uppercase">
-              Full Height title
+              Silence
             </h1>
             <h2 class="subtitle font-regular-normal is-uppercase">
-              Full Height subtitle
+              Bootstrap & Vue.js Admin Template
             </h2>
-            <a class="button is-info is-inverted is-outlined">Get Started</a>
+            <a href="http://silence.valentinsirbu.me" class="button is-info is-inverted is-outlined">Live Preview</a>
           </div>
           <div class="column">
-            <img src="/static/imgs/Chrome-Browser-t.png" alt="">
+            <img src="/static/imgs/silence.png" alt="">
           </div>
         </div>
       </div>
