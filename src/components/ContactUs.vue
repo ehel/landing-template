@@ -1,9 +1,10 @@
 <template>
   <section class="hero section is-info is-bold">
     <div class="container has-text-centered">
-      <h1 class="title font-accident-two-light is-uppercase mb-35">Contact Us</h1>
+      <h1 class="title font-accident-two-light is-uppercase mb-35">CONTACT ME</h1>
       <h2 class="subtitle font-accident-two-normal small is-uppercase">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dignissimos laborum tenetur veniam voluptas!
+        Got an Issue?<br>
+        Send me a message using this form and i'll respond as soon as possible.
       </h2>
       <div class="colums">
         <div class="column is-half is-offset-one-quarter">

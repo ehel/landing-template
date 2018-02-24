@@ -15,7 +15,7 @@
                 </figure>
               </div>
               <div class="card-content">
-                <p class="title is-4 font-accident-two-medium" v-text="theme.name"></p>
+                <p class="title is-size-6 font-accident-two-medium is-uppercase" v-text="theme.name"></p>
               </div>
             </div>
           </div>
