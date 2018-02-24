@@ -7,7 +7,7 @@
           <article class="tile is-child notification first-project project project-vertical">
             <div class="content">
               <p class="title font-accident-two-medium is-uppercase is-size-5 mb-35">Social Feed</p>
-              <a href="http://silence.valentinsirbu.me/social" class="subtitle is-size-7 font-accident-two-normal is-uppercase">Preview Page</a>
+              <a href="http://silence.valentinsirbu.me/social" target="_blank" class="subtitle is-size-7 font-accident-two-normal is-uppercase">Preview Page</a>
             </div>
           </article>
         </div>
@@ -15,13 +15,13 @@
           <article class="tile is-child notification second-project project project-horizontal">
             <div class="content">
               <p class="title font-accident-two-medium is-uppercase is-size-5 mb-35">Blog</p>
-              <a href="http://silence.valentinsirbu.me/blog" class="subtitle is-size-7 font-accident-two-normal is-uppercase">Preview Page</a>
+              <a href="http://silence.valentinsirbu.me/blog" target="_blank" class="subtitle is-size-7 font-accident-two-normal is-uppercase">Preview Page</a>
             </div>
           </article>
           <article class="tile is-child notification third-project project project-horizontal">
             <div class="content">
               <p class="title font-accident-two-medium is-uppercase is-size-5 mb-35">Inbox</p>
-              <a href="http://silence.valentinsirbu.me/inbox" class="subtitle is-size-7 font-accident-two-normal is-uppercase">Preview Page</a>
+              <a href="http://silence.valentinsirbu.me/inbox" target="_blank" class="subtitle is-size-7 font-accident-two-normal is-uppercase">Preview Page</a>
             </div>
           </article>
         </div>

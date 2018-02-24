@@ -37,8 +37,11 @@
           slidesToShow: 4,
           slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 2000,
+          infinite: true,
+          autoplaySpeed: 1500,
           arrows: false,
+          pauseOnHover: false,
+          pauseOnFocus: false,
           responsive: [
             {
               breakpoint: 1024,
