@@ -34,15 +34,18 @@
     </transition>
     <router-view/>
     <app-footer></app-footer>
+    <flash></flash>
   </div>
 </template>
 
 <script>
   import AppFooter from './components/Footer'
+  import Flash from './components/Flash'
   export default {
     name: 'App',
     components: {
-      AppFooter
+      AppFooter,
+      Flash
     },
     data () {
       return {
