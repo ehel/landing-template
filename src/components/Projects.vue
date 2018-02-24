@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="container has-text-centered">
-      <h1 class="title font-accident-two-light is-uppercase mb-35">Projects</h1>
+      <h1 class="title font-accident-two-light is-uppercase mb-35">Page Examples</h1>
       <h2 class="subtitle font-accident-two-normal small is-uppercase has-text-info">
         A simple container to divide your page into sections, like the one you're currently reading
       </h2>

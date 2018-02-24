@@ -10,9 +10,9 @@
           <h3 class="subtitle font-accident-two-medium">npm run dev</h3>
           <ul class="font-regular-normal small">
             <li>Webpack + vue-loader for single file Vue components.</li>
-            <li>State preserving hot-reload</li>
-            <li>Lint-on-save with ESLint</li>
-            <li>Source maps</li>
+            <li>State preserving hot-reload.</li>
+            <li>Lint-on-save with ESLint.</li>
+            <li>Source maps.</li>
           </ul>
         </div>
         <div class="column">

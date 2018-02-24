@@ -5,7 +5,7 @@
     <what-we-do></what-we-do>
     <features></features>
     <responsive></responsive>
-    <testimonials></testimonials>
+    <colors></colors>
     <projects></projects>
     <contact-us></contact-us>
   </div>
@@ -16,7 +16,7 @@
   import AboutUs from './AboutUs'
   import WhatWeDo from './WhatWeDo'
   import Features from './Features'
-  import Testimonials from './Testimonials'
+  import Colors from './Colors'
   import Projects from './Projects'
   import ContactUs from './ContactUs'
   import Responsive from './Responsive'
@@ -27,7 +27,7 @@
       AboutUs,
       WhatWeDo,
       Features,
-      Testimonials,
+      Colors,
       Projects,
       ContactUs,
       AppHeader,

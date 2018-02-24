@@ -3,7 +3,7 @@
     <div class="container has-text-centered">
       <h1 class="title font-accident-two-light is-uppercase mb-35">Features</h1>
       <h2 class="subtitle font-accident-two-normal small is-uppercase has-text-info">
-        A simple container to divide your page into sections, like the one you're currently reading
+        Built with vue-cli
       </h2>
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-8">
