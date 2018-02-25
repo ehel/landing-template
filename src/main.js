@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App'
+import axios from 'axios'
 import router from './router'
-import VueParticles from 'vue-particles'
 
+Vue.prototype.$http = axios
 Vue.config.productionTip = false
-Vue.use(VueParticles)
 
 window.events = new Vue()
 

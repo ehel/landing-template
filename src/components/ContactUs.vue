@@ -29,7 +29,7 @@
               <textarea class="textarea" placeholder="Message" v-model="message"></textarea>
             </div>
             <div class="control">
-              <button class="button is-info is-inverted is-outlined is-pulled-right" @click="sendMessage">Send Message</button>
+              <button class="button is-info is-inverted is-outlined is-pulled-right" @click.prevent="sendMessage">Send Message</button>
             </div>
           </form>
         </div>

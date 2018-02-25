@@ -4,7 +4,7 @@
       <div class="hero-body">
         <div class="container">
           <div class="content has-text-centered">
-            <p>
+            <p class="font-regular-normal">
               © {{year}} <a href="http://valentinsirbu.me/">Sirbu Valentin</a> - Silence Theme v1.0.0
             </p>
           </div>

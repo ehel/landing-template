@@ -1,29 +1,20 @@
 <template>
   <section class="section">
-    <div class="container has-text-centered">
-      <h1 class="title font-accident-two-light is-uppercase mb-35">Page Examples</h1>
-      <div class="tile is-ancestor">
-        <div class="tile is-parent">
-          <article class="tile is-child notification first-project project project-vertical">
-            <div class="content">
-              <p class="title font-accident-two-medium is-uppercase is-size-5 mb-35">Social Feed</p>
-              <a href="http://silence.valentinsirbu.me/social" target="_blank" class="subtitle is-size-7 font-accident-two-normal is-uppercase">Preview Page</a>
-            </div>
-          </article>
+    <div class="container">
+      <div class="columns">
+        <div class="column is-4">
+          <svg enable-background="new 0 0 500 500" id="Layer_1" version="1.1" viewBox="0 0 500 500" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle cx="250.976" cy="253.523" fill="#4384EC" r="216.569"/><path d="M304.343,43.587l-53.367,209.936l214.161,32.36c1.582-10.557,2.408-21.362,2.408-32.36   C467.546,152.333,398.143,67.359,304.343,43.587z" fill="#3FC18D"/><path d="M467.546,253.523c0-42.602-12.303-82.328-33.548-115.824L250.976,253.523l214.161,32.36   C466.719,275.326,467.546,264.521,467.546,253.523z" fill="#FECC5D"/><path d="M250.976,253.523L128.235,431.958c34.888,24.044,77.166,38.134,122.742,38.134   c108.61,0,198.54-79.952,214.161-184.209L250.976,253.523z" fill="#2666CE"/></g></svg>
         </div>
-        <div class="tile is-parent is-vertical is-8">
-          <article class="tile is-child notification second-project project project-horizontal">
-            <div class="content">
-              <p class="title font-accident-two-medium is-uppercase is-size-5 mb-35">Blog</p>
-              <a href="http://silence.valentinsirbu.me/blog" target="_blank" class="subtitle is-size-7 font-accident-two-normal is-uppercase">Preview Page</a>
-            </div>
-          </article>
-          <article class="tile is-child notification third-project project project-horizontal">
-            <div class="content">
-              <p class="title font-accident-two-medium is-uppercase is-size-5 mb-35">Inbox</p>
-              <a href="http://silence.valentinsirbu.me/inbox" target="_blank" class="subtitle is-size-7 font-accident-two-normal is-uppercase">Preview Page</a>
-            </div>
-          </article>
+        <div class="column center-content-vertically align-center">
+          <h1 class="title font-accident-two-light is-uppercase mb-35">Responsive Charts</h1>
+          <h2 class="subtitle font-accident-two-normal small is-uppercase has-text-info">
+            3 charts libraries
+          </h2>
+          <ul class="font-regular-normal has-text-centered">
+            <li>Chart.js - simple yet flexible JavaScript charting for designers & developers.</li>
+            <li>Peity - progressive svg pie, donut, bar and line mini charts.</li>
+            <li>Chartist - Simple responsive charts.</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -32,10 +23,10 @@
 
 <style lang="scss">
   .project-horizontal{
-    min-height: 300px;
+    min-height: 400px;
   }
   .project-vertical{
-    min-height: 300px;
+    min-height: 400px;
   }
   .project{
     background-size: cover !important;

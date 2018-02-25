@@ -20,9 +20,8 @@
   import Projects from './Projects'
   import ContactUs from './ContactUs'
   import Responsive from './Responsive'
-
   export default {
-    name: 'Main',
+    name: 'Landing',
     components: {
       AboutUs,
       WhatWeDo,

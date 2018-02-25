@@ -48,7 +48,11 @@
 </template>
 
 <script>
+  import VueParticles from 'vue-particles/src/vue-particles/vue-particles'
   export default {
+    components: {
+      VueParticles
+    },
     data () {
       return {
         burgerOpen: false

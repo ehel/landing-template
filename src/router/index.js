@@ -5,10 +5,16 @@ import Landing from '@/components/Landing'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
       name: 'Landing',
+      component: Landing
+    },
+    {
+      path: '*',
+      name: 'NotFound',
       component: Landing
     }
   ]
