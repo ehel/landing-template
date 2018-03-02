@@ -122,7 +122,7 @@
         </div>
         <div class="tile is-parent is-vertical">
           <article class="tile is-child feature">
-            <p class="title font-accident-two-medium is-uppercase is-size-5">26 components</p>
+            <p class="title font-accident-two-medium is-uppercase is-size-5">31 components</p>
             <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Easy to customize</p>
             <div class="content">
               <ul class="font-regular-normal is-6 has-text-left">
@@ -138,7 +138,7 @@
             </div>
           </article>
           <article class="tile is-child feature">
-            <p class="title font-accident-two-medium is-uppercase is-size-5">10 pages</p>
+            <p class="title font-accident-two-medium is-uppercase is-size-5">12 pages</p>
             <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Clean source code</p>
             <div class="content">
               <ul class="font-regular-normal is-6 has-text-left">
