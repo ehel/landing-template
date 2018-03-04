@@ -6,7 +6,7 @@
         A simple container to divide your page into sections, like the one you're currently reading
       </h2>
       <p class="font-regular-normal mb-35 is-size-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum iste laboriosam perferendis ratione unde voluptatum! Assumenda, dicta dignissimos ex excepturi illum natus necessitatibus, numquam officia pariatur quae reprehenderit veniam.</p>
-      <div class="columns">
+      <div class="columns mt-35">
         <svg width="0" height="0">
           <defs>
             <linearGradient id="primary">
@@ -16,7 +16,7 @@
           </defs>
         </svg>
         <div class="column">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30%" height="30%" fill="url(#primary)">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25%" height="25%" fill="url(#primary)">
             <path class="heroicon-ui" d="M13 20v-5h-2v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7.59l-.3.3a1 1 0 1 1-1.4-1.42l9-9a1 1 0 0 1 1.4 0l9 9a1 1 0 0 1-1.4 1.42l-.3-.3V20a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2zm5 0v-9.59l-6-6-6 6V20h3v-5c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v5h3z"/>
           </svg>
           <h3 class="subtitle font-accident-two-medium is-uppercase">First</h3>
@@ -25,7 +25,7 @@
           </p>
         </div>
         <div class="column">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30%" height="30%" fill="url(#primary)">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25%" height="25%" fill="url(#primary)">
             <path class="heroicon-ui" d="M9.57 3.38a8 8 0 0 0 10.4 10.4 1 1 0 0 1 1.31 1.3 10 10 0 1 1-13-13 1 1 0 0 1 1.3 1.3zM7.1 5.04A8 8 0 1 0 18.3 16.27 10 10 0 0 1 7.08 5.04z"/>
           </svg>
           <h3 class="subtitle font-accident-two-medium is-uppercase">Second</h3>
@@ -34,7 +34,7 @@
           </p>
         </div>
         <div class="column">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30%" height="30%" fill="url(#primary)">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25%" height="25%" fill="url(#primary)">
             <path stroke-width="1" class="heroicon-ui" d="M17 22a2 2 0 0 1-2-2v-1a1 1 0 0 0-1-1 1 1 0 0 0-1 1v1a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-3H5a3 3 0 1 1 0-6h1V8c0-1.11.9-2 2-2h3V5a3 3 0 1 1 6 0v1h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1a1 1 0 0 0-1 1 1 1 0 0 0 1 1h1a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-3zm3-2v-3h-1a3 3 0 1 1 0-6h1V8h-3a2 2 0 0 1-2-2V5a1 1 0 0 0-1-1 1 1 0 0 0-1 1v1a2 2 0 0 1-2 2H8v3a2 2 0 0 1-2 2H5a1 1 0 0 0-1 1 1 1 0 0 0 1 1h1a2 2 0 0 1 2 2v3h3v-1a3 3 0 1 1 6 0v1h3z"/>
           </svg>
           <h3 class="subtitle font-accident-two-medium is-uppercase">Third</h3>
