@@ -14,7 +14,6 @@
           </div>
         </div>
       </div>
-      <progress class="progress is-primary is-small" :value="selected ? (selectedIndex + 1) * 25 : 0" max="100"></progress>
       <p class="font-regular-normal is-6" v-text="description"></p>
     </div>
   </section>
@@ -73,9 +72,6 @@
 </script>
 
 <style lang="scss" scoped>
-  progress{
-    transition: 300ms ease all;
-  }
   .step-body{
     opacity: .6;
     margin: 0 auto;
