@@ -7,13 +7,14 @@
       </h2>
       <p class="font-regular-normal mb-35 small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum iste laboriosam perferendis ratione unde voluptatum! Assumenda, dicta dignissimos ex excepturi illum natus necessitatibus, numquam officia pariatur quae reprehenderit veniam.</p>
       <div class="columns mb-35">
-        <div class="column" v-for="(step, index) in steps" :key="step.id" @mouseover="select(index)" @mouseout="deselect">
+        <div class="column" v-for="(step, index) in steps" :key="step.id">
           <h1 class="title font-accident-two-medium is-uppercase is-size-5" v-text="step.title"></h1>
-          <div class="step-body">
+          <div class="step-body" @mouseover="select(index)" @mouseout="deselect">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36"><path class="heroicon-ui" :d="step.d"/></svg>
           </div>
         </div>
       </div>
+      <progress class="progress is-primary is-small" :value="selected ? (selectedIndex + 1) * 25 : 0" max="100"></progress>
       <p class="font-regular-normal is-6" v-text="description"></p>
     </div>
   </section>
@@ -72,8 +73,11 @@
 </script>
 
 <style lang="scss" scoped>
+  progress{
+    transition: 300ms ease all;
+  }
   .step-body{
-    opacity: .7;
+    opacity: .6;
     margin: 0 auto;
     display: inline-block;
     padding: 50px 55px;
