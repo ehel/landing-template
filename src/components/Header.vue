@@ -45,7 +45,7 @@
             </div>
           </div>
           <div class="column">
-            <img src="/static/imgs/Chrome-Browser-t.png" alt="">
+            <img src="/static/imgs/silence_responsive.png" alt="">
           </div>
         </div>
       </div>

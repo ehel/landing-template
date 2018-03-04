@@ -1,20 +1,22 @@
 <template>
-  <section class="hero section is-info is-bold">
+  <section class="hero section is-info is-bold what-we-do" style="position: relative">
     <div class="container has-text-centered">
       <h1 class="title font-accident-two-light is-uppercase mb-35">What We Do?</h1>
       <h2 class="subtitle font-accident-two-normal small is-uppercase">
         A simple container to divide your page into sections, like the one you're currently reading
       </h2>
       <p class="font-regular-normal mb-35 small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum iste laboriosam perferendis ratione unde voluptatum! Assumenda, dicta dignissimos ex excepturi illum natus necessitatibus, numquam officia pariatur quae reprehenderit veniam.</p>
-      <div class="columns mb-35">
-        <div class="column" v-for="(step, index) in steps" :key="step.id">
+      <div class="columns mb-35 mt-35">
+        <div class="column step-wrapper" v-for="(step, index) in steps" :key="step.id">
           <h1 class="title font-accident-two-medium is-uppercase is-size-5" v-text="step.title"></h1>
           <div class="step-body" @mouseover="select(index)" @mouseout="deselect">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36"><path class="heroicon-ui" :d="step.d"/></svg>
+            <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36"><path class="heroicon-ui" :d="step.d"/></svg>
+            </div>
           </div>
         </div>
       </div>
-      <span class="tag is-primary mb-35 is-rounded step-number font-regular-bold has-text-centered" v-text="selected ? selectedIndex + 1 : '×'"></span>
+      <span class="tag is-primary mb-35 is-rounded step-number font-regular-bold has-text-centered" v-text="selected ? selectedIndex + 1 : '-'"></span>
       <p class="font-regular-normal is-6" v-text="description"></p>
     </div>
   </section>
@@ -73,19 +75,32 @@
 </script>
 
 <style lang="scss" scoped>
+  .what-we-do{
+    background-image: url('/static/imgs/World_map_(blue_dots).svg'), linear-gradient(141deg, #04a6d7 0%, #209cee 71%, #3287f5 100%) !important;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
   .step-body{
     opacity: .6;
     margin: 0 auto;
     display: inline-block;
-    padding: 50px 55px;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 1px dashed #fff;
     transition: 300ms ease all;
     cursor: pointer;
+    .icon-wrapper{
+      padding: 40px 45px;
+      margin: 10px;
+      border-radius: 50%;
+      transition: 300ms ease background-color;
+    }
     &:hover{
       opacity: 1;
-      background-color: #fff;
       box-shadow: 0 6px 8px rgba(10, 10, 10, 0.1), 0 0 0 0 rgba(10, 10, 10, 0.1);
+      .icon-wrapper{
+        background-color: #fff;
+      }
       svg{
         fill: #04a6d7;
       }
