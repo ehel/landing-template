@@ -39,7 +39,10 @@
             <h2 class="subtitle font-regular-normal is-uppercase">
               Full Height subtitle
             </h2>
-            <a class="button is-info is-inverted is-outlined">Get Started</a>
+            <div class="flex">
+              <a class="button is-info is-inverted is-outlined font-accident-two-normal">Get Started</a>
+              <a class="button is-primary font-accident-two-normal">View Demo</a>
+            </div>
           </div>
           <div class="column">
             <img src="/static/imgs/Chrome-Browser-t.png" alt="">

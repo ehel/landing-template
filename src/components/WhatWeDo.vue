@@ -14,6 +14,7 @@
           </div>
         </div>
       </div>
+      <span class="tag is-primary mb-35 is-rounded step-number font-regular-bold has-text-centered" v-text="selected ? selectedIndex + 1 : '×'"></span>
       <p class="font-regular-normal is-6" v-text="description"></p>
     </div>
   </section>
@@ -93,5 +94,9 @@
       fill: #fff;
       transition: 300ms ease fill;
     }
+  }
+  .step-number{
+    width: 25px;
+    box-shadow: 0 6px 8px rgba(10, 10, 10, 0.1), 0 0 0 0 rgba(10, 10, 10, 0.1);
   }
 </style>
