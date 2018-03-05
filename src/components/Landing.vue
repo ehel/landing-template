@@ -2,6 +2,7 @@
   <div>
     <app-header></app-header>
     <about-us></about-us>
+    <pricing></pricing>
     <what-we-do></what-we-do>
     <features></features>
     <testimonials></testimonials>
@@ -18,6 +19,7 @@
   import Testimonials from './Testimonials'
   import Projects from './Projects'
   import ContactUs from './ContactUs'
+  import Pricing from './Pricing'
 
   export default {
     name: 'Main',
@@ -28,7 +30,8 @@
       Testimonials,
       Projects,
       ContactUs,
-      AppHeader
+      AppHeader,
+      Pricing
     }
   }
 </script>

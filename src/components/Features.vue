@@ -5,6 +5,9 @@
       <h2 class="subtitle font-accident-two-normal small is-uppercase has-text-info">
         A simple container to divide your page into sections, like the one you're currently reading
       </h2>
+      <p class="small font-regular-normal text-center mb-35">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid beatae, deserunt esse ex, explicabo hic illum incidunt maxime, possimus sed suscipit vitae. <br> Dignissimos, enim laborum nihil nulla sequi unde.
+      </p>
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-8">
           <div class="tile">
