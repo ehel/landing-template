@@ -137,5 +137,8 @@
 
 <style lang="scss">
   .slick-slider { display: table !important; table-layout: fixed; width: 100%; }
+  .slick-slide {
+    outline: none !important;
+  }
   @import "~slick-carousel/slick/slick";
 </style>

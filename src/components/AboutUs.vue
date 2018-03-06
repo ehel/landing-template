@@ -5,11 +5,10 @@
       <h2 class="subtitle font-accident-two-normal small is-uppercase has-text-info">
         A simple container to divide your page into sections, like the one you're currently reading
       </h2>
-      <p class="font-regular-normal mb-50 is-size-6">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque consequuntur cum deserunt doloremque, doloribus excepturi facilis fugit incidunt inventore labore libero nesciunt, porro provident quae quibusdam quidem quod, vel?
+      <p class="font-regular-normal mb-35 small">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum iste laboriosam perferendis ratione unde voluptatum! Assumenda, dicta dignissimos ex excepturi illum natus necessitatibus, numquam officia pariatur quae reprehenderit veniam.
       </p>
-      <div class="columns mt-50 mb-35">
+      <div class="columns mt-35 mb-35">
         <svg width="0" height="0">
           <defs>
             <linearGradient id="primary">
@@ -111,6 +110,7 @@
           </div>
         </div>
       </div>
+      <a class="button is-primary font-accident-two-normal">More Info...</a>
     </div>
   </section>
 </template>
