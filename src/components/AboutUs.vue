@@ -18,7 +18,7 @@
           </defs>
         </svg>
         <div class="column">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480" width="15%" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480" width="45%" style="enable-background:new 0 0 480 480;" xml:space="preserve">
           <path style="fill:#E7E7E7;" d="M440,8H40C22.328,8,8,22.328,8,40v72c0-17.672,14.328-32,32-32h208l16-40h144l16,40h16
             c17.672,0,32,14.328,32,32V40C472,22.328,457.672,8,440,8z"/>
           <path style="fill:#EFC95B;" d="M440,80h-16l-16-40H264l-16,40H40C22.328,80,8,94.328,8,112v72c0-17.672,14.328-32,32-32h208l16-40
@@ -44,14 +44,15 @@
             </g>
           </svg>
           <div>
-            <h3 class="subtitle font-accident-two-medium is-uppercase">First</h3>
+            <h3 class="title font-accident-two-medium is-uppercase is-size-5">First</h3>
+            <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Subtitle</p>
             <p class="font-regular-normal small">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores dicta fugiat modi nam natus quasi recusandae repellendus ullam voluptate?
             </p>
           </div>
         </div>
         <div class="column">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480" width="15%" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480" width="45%" style="enable-background:new 0 0 480 480;" xml:space="preserve">
             <g>
               <path style="fill:url(#primary);" d="M132.44,59.264c-5.248,9.712-8.448,19.632-8.448,28.736l1.712,32.448
                 c-10.648,1.576-28.176,2.16-33.712,15.552c-2.152,5.216,0,16,0,16c2.024,14.704,5.528,31.032,19.688,35.448
@@ -84,13 +85,16 @@
               c-22.984-13.264-31.552-25.616-31.56-45.816l-2.544-48.32c0,0,0,0,0-0.008l-3.744-71.224c0-0.024-0.016-0.04-0.016-0.064L131.992,88
               c0-7.256,2.584-15.872,7.488-24.928C155.176,34.04,186.512,16,221.248,16z"/>
           </svg>
-          <h3 class="subtitle font-accident-two-medium is-uppercase">Second</h3>
-          <p class="font-regular-normal small">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores dicta fugiat modi nam natus quasi recusandae repellendus ullam voluptate?
-          </p>
+          <div>
+            <h3 class="title font-accident-two-medium is-uppercase is-size-5">Second</h3>
+            <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Subtitle</p>
+            <p class="font-regular-normal small">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores dicta fugiat modi nam natus quasi recusandae repellendus ullam voluptate?
+            </p>
+          </div>
         </div>
         <div class="column">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15%" x="0px" y="0px" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45%" x="0px" y="0px" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
             <g>
               <path style="fill:#E7E7E7;" d="M440,88v176c17.672,0,32-14.328,32-32V120C472,102.328,457.672,88,440,88z"/>
               <path style="fill:#E7E7E7;" d="M8,120v112c0,17.672,14.328,32,32,32V88C22.328,88,8,102.328,8,120z"/>
@@ -184,12 +188,29 @@
                 s4.096-0.784,5.656-2.344l72-72l-11.312-11.312L360,412.688z"/>
               </g>
           </svg>
-          <h3 class="subtitle font-accident-two-medium is-uppercase">Third</h3>
-          <p class="font-regular-normal small">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores dicta fugiat modi nam natus quasi recusandae repellendus ullam voluptate?
-          </p>
+          <div>
+            <h3 class="title font-accident-two-medium is-uppercase is-size-5">Third</h3>
+            <p class="subtitle is-size-7 font-accident-two-normal has-text-info is-uppercase">Subtitle</p>
+            <p class="font-regular-normal small">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores dicta fugiat modi nam natus quasi recusandae repellendus ullam voluptate?
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<style scoped lang="scss">
+  .column{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    .subtitle{
+      margin-bottom: 15px;
+    }
+    svg{
+      margin-right: 20px;
+    }
+  }
+</style>
