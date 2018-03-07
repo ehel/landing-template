@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <transition name="fade">
-      <nav class="navbar is-fixed-top is-transparent" v-if="showNavbar">
+      <nav class="navbar is-fixed-top is-transparent" v-show="showNavbar">
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item" href="/">
