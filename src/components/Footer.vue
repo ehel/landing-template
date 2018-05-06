@@ -5,7 +5,7 @@
         <div class="container">
           <div class="content has-text-centered">
             <p class="font-regular-normal">
-              © {{year}} <a href="http://valentinsirbu.me/">Sirbu Valentin</a> - Silence Theme v1.0.0
+              © {{year}} <a href="http://valentinsirbu.me/">Sirbu Valentin</a> - Silence Theme v1.0.1
             </p>
           </div>
         </div>
