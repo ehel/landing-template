@@ -17,7 +17,7 @@
                   <a href="http://silence.valentinsirbu.me/docs" class="font-accident-two-normal navbar-item-link">Docs</a>
                 </span>
               <span class="navbar-item">
-                  <a href="#" class="button is-info is-inverted is-outlined font-accident-two-normal" :class="{'is-fullwidth': burgerOpen}">
+                  <a href="http://silence-v101.valentinsirbu.me" class="button is-info is-inverted is-outlined font-accident-two-normal" :class="{'is-fullwidth': burgerOpen}">
                     Live Preview
                   </a>
                 </span>
@@ -38,7 +38,7 @@
             </h2>
             <div class="field is-grouped">
               <p class="control">
-                <a href="http://silence.valentinsirbu.me" class="button is-info is-inverted is-outlined">Live Preview</a>
+                <a href="http://silence-v101.valentinsirbu.me" class="button is-info is-inverted is-outlined">Live Preview</a>
               </p>
               <p class="control">
                 <a href="https://wrapbootstrap.com/theme/silence-vue.js-admin-template-WB0262S25" class="button is-success font-accident-two-normal" :class="{'is-fullwidth': burgerOpen}">
